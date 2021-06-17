@@ -35,7 +35,7 @@ nav{
 .header__fondo{
      display: flex;
      width:100%;
-     background-image: url(../Assests/Img/headerIndex.jpg);
+     background-image: url(../Assests/headerIndex.jpg);
      background-position:top;
      font-family:'Poppins', sans-serif;
 }
@@ -66,18 +66,18 @@ nav{
 .header__fondoNosotros{
     display: flex;
     width:100%;
-    background-image: url(../Assests/Img/headerNosotros.jpg);
+    background-image: url(../Assests/headerNosotros.jpg);
     background-position:center;
     font-family:'Poppins', sans-serif;
 }
 // estilo header menu
 .header__fondoMenu{
     @extend.header__fondoNosotros;
-    background-image: url(../Assests/Img/headerMenu.jpg);
+    background-image: url(../Assests/headerMenu.jpg);
 }
 // estilo section menu
 .section__menu{
-background-image: url("../Assests/Img/parallaxMenu.jpg");
+background-image: url("../Assests/parallaxMenu.jpg");
 height: 1800px;
 background-attachment: fixed;
 background-position: center;
@@ -118,7 +118,7 @@ margin-bottom:0px;
 
 .header__fondoContacto{
     @extend.header__fondo;
-    background-image: url(../Assests/Img/headerContacto.jpg);
+    background-image: url(../Assests/headerContacto.jpg);
 }
 // estilo section contacto
 .tituloContacto{

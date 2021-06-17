@@ -7208,7 +7208,7 @@ nav {
 .header__fondo, .header__fondoContacto {
   display: flex;
   width: 100%;
-  background-image: url(../Assests/Img/headerIndex.jpg);
+  background-image: url(../Assests/headerIndex.jpg);
   background-position: top;
   font-family: 'Poppins', sans-serif; }
 
@@ -7237,15 +7237,15 @@ nav {
 .header__fondoNosotros, .header__fondoMenu {
   display: flex;
   width: 100%;
-  background-image: url(../Assests/Img/headerNosotros.jpg);
+  background-image: url(../Assests/headerNosotros.jpg);
   background-position: center;
   font-family: 'Poppins', sans-serif; }
 
 .header__fondoMenu {
-  background-image: url(../Assests/Img/headerMenu.jpg); }
+  background-image: url(../Assests/headerMenu.jpg); }
 
 .section__menu {
-  background-image: url("../Assests/Img/parallaxMenu.jpg");
+  background-image: url("../Assests/parallaxMenu.jpg");
   height: 1800px;
   background-attachment: fixed;
   background-position: center;
@@ -7283,7 +7283,7 @@ nav {
   background-color: #000; }
 
 .header__fondoContacto {
-  background-image: url(../Assests/Img/headerContacto.jpg); }
+  background-image: url(../Assests/headerContacto.jpg); }
 
 .tituloContacto {
   font-family: 'Bebas Neue', cursive;
