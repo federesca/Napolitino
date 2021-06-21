@@ -57,7 +57,7 @@ nav{
     font-weight: lighter;
     text-align: center;
     color: $white;
-    padding: $padding;
+    padding: 1rem;
 }
 .section__div__div--img{
     border-radius: 15rem;
@@ -88,15 +88,16 @@ margin-bottom:0px;
 }
 .sectionMenu__div__div--parrafoMenu{
     font-family:'Poppins', sans-serif;
-    font-weight:lighter;
-    text-align: left;
-    color: $white;
+    border-radius: 25px;
+    font-size: 2rem;
+    color:rgb(0, 0, 0);
+    text-shadow: 5rem;
+    background-color: rgb(223, 183, 5);
+    font-weight: normal;
     text-align: center;
-    background-color: $black;
 }
 .misCartas{
     border-radius: 50px;
-    background-color: black;
 }
 .img-card{
     border-radius: 350px;
@@ -110,10 +111,17 @@ margin-bottom:0px;
 }
 .card-text{
     font-family:'Poppins', sans-serif;
-    font-size: 1.25rem;  
+    font-size: 1.75rem;  
     color: $yellow;
+    border-radius: 20px;
     background-color: $black;
 }
+// estilo section boxes
+
+.codigoQr{
+    border-radius: 30px;
+}
+
 // estilo header contactos
 
 .header__fondoContacto{
