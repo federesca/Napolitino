@@ -7205,7 +7205,7 @@ p {
 nav {
   font-size: 2rem; }
 
-.header__fondo, .header__fondoContacto {
+.header__fondo, .header__fondoBoxes, .header__fondoContacto {
   display: flex;
   width: 100%;
   background-image: url(../Assests/headerIndex.jpg);
@@ -7248,6 +7248,22 @@ nav {
 .body_menu {
   background-image: url("../Assests/fondoMenu.jpg"); }
 
+.menu_precios {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.menu_lista {
+  height: 25rem;
+  width: 90%;
+  text-align: center;
+  color: #fff;
+  margin-top: 6%;
+  margin-bottom: 6%; }
+
+.menu_espaciado {
+  padding: 5rem; }
+
 .sectionMenu__div__div--parrafoMenu {
   font-family: 'Poppins', sans-serif;
   border-radius: 25px;
@@ -7276,6 +7292,9 @@ nav {
   font-size: 1.5rem;
   color: #fff;
   border-radius: 20px; }
+
+.header__fondoBoxes {
+  background-image: url(../Assests/headerBoxes.jpg); }
 
 .codigoQr {
   border-radius: 30px; }

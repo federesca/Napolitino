@@ -80,7 +80,22 @@ nav{
 .body_menu{
     background-image: url("../Assests/fondoMenu.jpg");
 }
-
+.menu_precios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.menu_lista{
+    height: 25rem;
+    width: 90%;
+    text-align: center;
+    color: $white;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.menu_espaciado{
+    padding: $padding;
+}
 .sectionMenu__div__div--parrafoMenu{
     font-family:'Poppins', sans-serif;
     border-radius: 25px;
@@ -109,6 +124,12 @@ nav{
     font-size: 1.5rem;  
     color: $white;
     border-radius: 20px;
+}
+// estilo header contactos
+
+.header__fondoBoxes{
+    @extend.header__fondo;
+    background-image: url(../Assests/headerBoxes.jpg);
 }
 // estilo section boxes
 
