@@ -54,6 +54,7 @@ nav{
 }
 .section__div__div--parrafo{
     font-family:'Poppins', sans-serif;
+    font-size: 2rem;
     font-weight: lighter;
     text-align: center;
     color: $white;
@@ -76,16 +77,10 @@ nav{
     background-image: url(../Assests/headerMenu.jpg);
 }
 // estilo section menu
-.section__menu{
-background-image: url("../Assests/parallaxMenu.jpg");
-height: 1800px;
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-padding: 50px 30px;
-margin-bottom:0px;
+.body_menu{
+    background-image: url("../Assests/fondoMenu.jpg");
 }
+
 .sectionMenu__div__div--parrafoMenu{
     font-family:'Poppins', sans-serif;
     border-radius: 25px;
@@ -107,14 +102,13 @@ margin-bottom:0px;
     font-size: 3rem;
     border-radius: 50px;
     color: $yellow;
-    background-color:$black;
 }
 .card-text{
     font-family:'Poppins', sans-serif;
-    font-size: 1.75rem;  
-    color: $yellow;
+    font-weight: normal;
+    font-size: 1.5rem;  
+    color: $white;
     border-radius: 20px;
-    background-color: $black;
 }
 // estilo section boxes
 

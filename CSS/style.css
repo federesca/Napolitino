@@ -7226,6 +7226,7 @@ nav {
 
 .section__div__div--parrafo {
   font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
   font-weight: lighter;
   text-align: center;
   color: #fff;
@@ -7244,15 +7245,8 @@ nav {
 .header__fondoMenu {
   background-image: url(../Assests/headerMenu.jpg); }
 
-.section__menu {
-  background-image: url("../Assests/parallaxMenu.jpg");
-  height: 1800px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 50px 30px;
-  margin-bottom: 0px; }
+.body_menu {
+  background-image: url("../Assests/fondoMenu.jpg"); }
 
 .sectionMenu__div__div--parrafoMenu {
   font-family: 'Poppins', sans-serif;
@@ -7274,15 +7268,14 @@ nav {
   font-family: 'Poppins', sans-serif;
   font-size: 3rem;
   border-radius: 50px;
-  color: #ffc107;
-  background-color: #000; }
+  color: #ffc107; }
 
 .card-text {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.75rem;
-  color: #ffc107;
-  border-radius: 20px;
-  background-color: #000; }
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: #fff;
+  border-radius: 20px; }
 
 .codigoQr {
   border-radius: 30px; }
