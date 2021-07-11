@@ -7222,7 +7222,8 @@ nav {
 .section__div__div--h2 {
   font-family: 'Bebas Neue', cursive;
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  padding-top: 1rem; }
 
 .section__div__div--parrafo {
   font-family: 'Poppins', sans-serif;
@@ -7254,12 +7255,20 @@ nav {
   justify-content: center; }
 
 .menu_lista {
-  height: 25rem;
+  height: 85rem;
   width: 90%;
   text-align: center;
   color: #fff;
   margin-top: 6%;
   margin-bottom: 6%; }
+
+.lista_precios {
+  box-shadow: 1000px;
+  border-radius: 20px; }
+
+@media (max-width: 576px) {
+  .lista_precios {
+    width: 400px; } }
 
 .menu_espaciado {
   padding: 5rem; }
@@ -7361,3 +7370,11 @@ nav {
 
 .whatsappLogo {
   margin-left: 635px; }
+
+.copy {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  font-family: 'Poppins', sans-serif;
+  color: #fff; }
