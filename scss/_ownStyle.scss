@@ -16,6 +16,9 @@ $nav:map-get($tamanios , nav );
     margin: 0;
     padding: 0;
 }
+li{
+    list-style: none;
+}
 html{
     font-size: 62.5%;
 }
@@ -30,6 +33,19 @@ p{
 }
 nav{
     font-size: $nav;
+}
+
+// estilo footer 
+.redes{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-family:'Poppins', sans-serif;
+    color: $white;
+}
+.icons_footer{
+    text-decoration: none;
 }
 // estilo header index
 .header__fondo{
@@ -64,6 +80,11 @@ nav{
 .section__div__div--img{
     border-radius: 15rem;
 }
+@media (max-width: 576px) {
+    .section__div__div--img{
+        width: 300px;
+    }
+    }
 // estilo header nosotros
 .header__fondoNosotros{
     display: flex;
@@ -146,7 +167,6 @@ nav{
 .codigoQr{
     border-radius: 30px;
 }
-
 // estilo header contactos
 
 .header__fondoContacto{
@@ -182,6 +202,11 @@ nav{
     font-family:'Poppins', sans-serif;
     font-size: 1.25rem;
 }
+@media (max-width: 576px) {
+    .form{
+       flex-direction: column;
+    }
+    }
 .form-row{
     display:flex;
     flex-wrap:wrap ;
@@ -216,7 +241,6 @@ nav{
 .whatsappLogo{
     margin-left: 635px;
 }
-
 // estilo section contacto
 
 .copy{

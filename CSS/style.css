@@ -7190,6 +7190,9 @@ a.text-dark:hover, a.text-dark:focus {
   margin: 0;
   padding: 0; }
 
+li {
+  list-style: none; }
+
 html {
   font-size: 62.5%; }
 
@@ -7204,6 +7207,17 @@ p {
 
 nav {
   font-size: 2rem; }
+
+.redes {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-family: 'Poppins', sans-serif;
+  color: #fff; }
+
+.icons_footer {
+  text-decoration: none; }
 
 .header__fondo, .header__fondoBoxes, .header__fondoContacto {
   display: flex;
@@ -7235,6 +7249,10 @@ nav {
 
 .section__div__div--img {
   border-radius: 15rem; }
+
+@media (max-width: 576px) {
+  .section__div__div--img {
+    width: 300px; } }
 
 .header__fondoNosotros, .header__fondoMenu {
   display: flex;
@@ -7338,6 +7356,10 @@ nav {
   font-weight: lighter;
   font-family: 'Poppins', sans-serif;
   font-size: 1.25rem; }
+
+@media (max-width: 576px) {
+  .form {
+    flex-direction: column; } }
 
 .form-row {
   display: flex;
