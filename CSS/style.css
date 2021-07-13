@@ -7284,9 +7284,10 @@ nav {
   box-shadow: 1000px;
   border-radius: 20px; }
 
-@media (max-width: 576px) {
+@media (max-width: 750px) and (min-width: 300px) {
   .lista_precios {
-    width: 400px; } }
+    width: 350px;
+    height: 550px; } }
 
 .menu_espaciado {
   padding: 5rem; }
@@ -7357,9 +7358,9 @@ nav {
   font-family: 'Poppins', sans-serif;
   font-size: 1.25rem; }
 
-@media (max-width: 576px) {
-  .form {
-    flex-direction: column; } }
+@media (max-width: 750px) and (min-width: 300px) {
+  .form-row {
+    width: 250px !important; } }
 
 .form-row {
   display: flex;
