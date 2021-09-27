@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/styleComprarBox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Pedi tu box</title>
+</head>
+<body>
+    <header class="container-fluid m-0 p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <a class="navbar-brand" href="#"><img class="imag-fluid" src="../Assests/logo/logo_napolitino.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="boxes.html">Boxes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Arma tu box</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="compraTuBox.html">Compra tu box</a>
+                </li>
+              </ul>
+            </div>
+          </nav> 
+    </header>
+    <!-- INICIO SECTION -->
+    <section class="store">
+        <div class="container">
+            <div class="items">
+                <div class="row">
+
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Boconna Box</h3>
+                            <img class="item-image" src="../Assests/Boxes/blueBoxDesafio.jpg">
+
+                            <div class="item-details">
+                                <h4 class="item-price">$ 700</h4>
+                                <button class="item-button btn btn-warning addToCart">Agregar al pedido</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Pancetona Box</h3>
+
+                            <img class="item-image" src="../Assests/Boxes/BocconnaBoxDesafio.jpg">
+
+                            <div class="item-details">
+                                <h4 class="item-price">$ 700</h4>
+                                <button class="item-button btn btn-warning addToCart">Agregar al pedido</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Blue Box</h3>
+
+                            <img class="item-image" src="../Assests/Boxes/funghiBoxDesafio.jpg">
+
+                            <div class="item-details">
+                                <h4 class="item-price">$ 700</h4>
+                                <button class="item-button btn btn-warning addToCart">Agregar al pedido</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Sin Vueltas Box</h3>
+
+                            <img class="item-image" src="../Assests/Boxes/funghiBoxDesafio.jpg">
+
+                            <div class="item-details">
+                                <h4 class="item-price">$ 500</h4>
+                                <button class="item-button btn btn-warning addToCart">Agregar al pedido</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Burra Box</h3>
+                            <img class="item-image" src="../Assests/Boxes/funghiBoxDesafio.jpg">
+                            <div class="item-details">
+                                <h4 class="item-price">$ 1000</h4>
+                                <button class="item-button btn btn-warning addToCart">Agregar al pedido</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Pre Pizzita Box</h3>
+                            <img class="item-image" src="../Assests/Boxes/funghiBoxDesafio.jpg">
+                            <div class="item-details">
+                                <h4 class="item-price">$ 500</h4>
+                                <button class="item-button btn btn-warning addToCart">Agregar al pedido</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN SECTION-->
+    <!-- INICIO SECTION-->
+    <section class="shopping-cart">
+        <div class="container">
+            <h1 class="text-center">Tu pedido</h1>
+            <hr>
+            <div class="row">
+                <div class="col-6">
+                    <div class="shopping-cart-header">
+                        <h6>Producto</h6>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="shopping-cart-header">
+                        <h6 class="text-truncate">Precio</h6>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="shopping-cart-header">
+                        <h6>Cantidad</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- ? START SHOPPING CART ITEMS -->
+            <div class="shopping-cart-items shoppingCartItemsContainer">
+            </div>
+            <!-- ? END SHOPPING CART ITEMS -->
+            <!-- INCIO TOTALES-->
+            <div class="row">
+                <div class="col-12">
+                    <div class="shopping-cart-total d-flex align-items-center">
+                        <p class="mb-0">Total</p>
+                        <p class="ml-4 mb-0 shoppingCartTotal">0$</p>
+                        <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+                            data-delay="2000">
+                            <div class="toast-header">
+                                <span>✅</span>
+                                <strong class="mr-auto ml-1 text-secondary">Elemento en el carrito</strong>
+                                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="toast-body text-white">
+                                Se aumentó correctamente la cantidad
+                            </div>
+                        </div>
+                        <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                            data-target="#comprarModal">Hacer pedido</button>
+                    </div>
+                </div>
+            </div>
+            <!-- FIN TOTALES -->
+            <!-- RESPUESTA A CLICK -->
+            <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="comprarModalLabel">Gracias por su pedido</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Pronto nos comunicaremos con vos</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FIN RESPUESTA -->
+        </div>
+    </section>
+    <!-- END SECTION SHOPPING CART -->
+    <!-- INICIO FOOTER -->
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-xs-12">
+                <ul class="nav justify-content-center align-items-center">
+                    <li class="nav-item ">
+                      <a class="nav-link active"><img class="imag-fluid" src="../Assests/logo/logo_napolitino.png" alt="logo"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <h4 class="redes">Seguinos en nuestras redes</h4>
+        <div class="row justify-content-center icons_footer">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.co m/napolitino/?hl=es-la" tabindex="-1" aria-disabled="true"><img class="imag-fluid" src="../Assests/logo/instagram.png" alt="instagram"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com/napolitino-113843377046457" tabindex="-1" aria-disabled="true"><img class="imag-fluid" src="../Assests/logo/fb.jpg" alt="facebook"></a>
+          </li>
+        </div>
+        <h4 class="copy">◄ Napolitino | &#169; 2021 por Fede Resca ►</h4>
+    </footer>
+    <!-- FIN FOOTER -->
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="../JS/carrito.js"></script>
+</body>
+</html>

@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,100;1,200&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/styleArmadoBox.css">
 </head>
 <body class="body">
     <header class="container-fluid m-0 p-0">
@@ -41,18 +41,35 @@
                     <a class="nav-link" href="boxes.html">Boxes</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
+                    <a class="nav-link" href="contacto.html">Arma tu box</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="compraTuBox.html">Compra tu box</a>
                 </li>
               </ul>
             </div>
           </nav> 
     </header>
     <!-- Inicio de section -->
+    <section>
+        <div class="contenedor">
+            <h1 class="titulo">Ingredientes disponibles para armar una box personalizada</h1>
+        </div>
+        <main  class="contenedor">
+            <div class="contenedor-ingredientes">
+                
+            </div>
+            <h2 class="titulo">Mis ingredientes elegidos</h2>
+            <div class="listado-favoritos">
+    
+            </div>
+        </main>
+    </section>
     <section class="container-fluid">
         <div class="row">
           <div class="col-lg-12 col-xs-12">
               <h2 class="tituloContacto">Realizá tu pedido</h2>
-              <p class="parrafoContacto"> Próxima fecha de entrega : 25 de Julio</p>
+              <p class="parrafoContacto"> Próxima fecha de entrega : 1 de Septiembre</p>
           </div>
         </div>
     </section>
@@ -60,36 +77,29 @@
         <div class="row">
             <div class="col-lg-12 col-xs-12">
                 <div class="form">
-                    <form method="post">
+                    <form action="https://formspree.io/f/xwkaalry" method="POST">
                         <div class="form-row">
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Nombre">
+                                <input id="nombre_cliente" type="text" class="form-control" placeholder="Nombre" name="message">
                             </div>
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Apellido">
+                                <input id="apellido_cliente" type="text" class="form-control" placeholder="Apellido" name="message">
                             </div>
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Pedido"></textarea>
-                        </div>
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="customCheck1">
-                            <label class="custom-control-label form-newsletter" for="customCheck1">Subscribirse al newsletter</label>
+                            <input id="email_cliente" type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" name="_replyto">
                         </div>
                         <div class="form-group">
                             <div class="col-md-12 text-center">
-                                <button type="submit" class="btn btn-warning btn-lg">Enviar</button>
+                                <button type="submit" class="btn btn-warning btn-lg">Enviar pedido</button>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
     <section class="container-fluid">
         <div class="row">
           <div class="col-lg-12 col-xs-12">
@@ -97,11 +107,11 @@
               <p class="parrafoContacto"> 11 6023-4826</p>
           </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-lg-12 col-xs-12">
                 <a class="nav-link active" href="https://api.whatsapp.com/send?phone=541160234826&text=Buenas%20tardes"></a><img class="d-block mx-auto" src="../Assests/logo/whatsapp.png" alt="logo"></a><br>
             </div>
-        </div>  
+        </div>   -->
     </section>
     <section class="container-fluid">
         <div class="row">
@@ -133,6 +143,7 @@
     </div>
     <h4 class="copy">◄ Napolitino | &#169; 2021 por Fede Resca ►</h4>
 </footer>
+<script src="../JS/main.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
