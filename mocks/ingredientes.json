@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name" : "Prepizza",
+        "img": "../Assests/ingredientes/MASA.png"
+    },
+    {
+        "id": 2,
+        "name": "Salsa",
+        "img" : "../Assests/ingredientes/salsa.png"
+    },
+    {
+        "id": 3,
+        "name": "Cebolla Caramelizada",
+        "img" : "../Assests/ingredientes/cebolla.png"
+    },
+    {
+        "id": 4,
+        "name": "Boconccinos",
+        "img" : "../Assests/ingredientes/bocconcinos.png"
+    },
+    {
+        "id": 5,
+        "name": "Muzzarella",
+        "img" : "../Assests/ingredientes/muzza.png"
+    },
+    {
+        "id": 6,
+        "name": "Tomates secos",
+        "img" : "../Assests/ingredientes/tomates-secos.png"
+    },
+    {
+        "id": 7,
+        "name": "Panceta",
+        "img" : "../Assests/ingredientes/panceta.png"
+    },
+    {
+        "id": 8,
+        "name": "Queso azul",
+        "img" : "../Assests/ingredientes/roque.png"
+    },
+    {
+        "id": 9,
+        "name": "Huevo",
+        "img" : "../Assests/ingredientes/huevo.png"
+    },
+    {
+        "id": 10,
+        "name": "Queso Provolone",
+        "img" : "../Assests/ingredientes/provolone.png"
+    }
+]

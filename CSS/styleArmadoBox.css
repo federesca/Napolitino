@@ -92,6 +92,7 @@ img {
 }
 .icons_footer{
     text-decoration: none;
+    list-style-type: none;
 }
 .copy{
     text-align: center;
