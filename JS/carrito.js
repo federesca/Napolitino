@@ -1,7 +1,15 @@
-const addToShoppingCartButtons = document.querySelectorAll('.addToCart');
-addToShoppingCartButtons.forEach((addToCartButton) => {
-  addToCartButton.addEventListener('click', addToCartClicked);
+let productos = [];
+
+fetch('/mocks/boxes.json').then((data) => data.json()).then((data) => {
+	productos = data;
+	mostrarProductos();
+	const addToShoppingCartButtons = document.querySelectorAll('.addToCart');
+	addToShoppingCartButtons.forEach((addToCartButton) => {
+	addToCartButton.addEventListener('click', addToCartClicked);
+	});
 });
+
+
 
 const comprarButton = document.querySelector('.comprarButton');
 comprarButton.addEventListener('click', comprarButtonClicked);
@@ -9,6 +17,41 @@ comprarButton.addEventListener('click', comprarButtonClicked);
 const shoppingCartItemsContainer = document.querySelector(
   '.shoppingCartItemsContainer'
 );
+
+function mostrarProductos()
+{
+	var contador=0;
+	var elementos=document.createElement('div');
+	elementos.classList.add("items");
+	var row=document.createElement('div');
+	row.classList.add("row");
+	var elemento=""
+	productos.forEach((producto)=>{
+		const div = document.createElement('div');
+		elemento+=`<div class="col-12 col-md-6">
+			<div class="item shadow mb-4">
+				<h3 class="item-title">${producto.name}</h3>
+				<img class="item-image" src="${producto.img}">
+
+				<div class="item-details">
+					<h4 class="item-price">$ ${producto.price}</h4>
+					<button class="item-button btn btn-warning addToCart">Agregar al pedido</button>
+				</div>
+				</div>
+			</div>`
+		if(contador%2==0 && contador>0)
+		{
+			row.innerHTML=elemento;
+			elementos.appendChild(row);
+		}
+		else
+		{
+			contador+=1;
+		}		
+		
+	});
+	document.querySelector("#store").firstElementChild.appendChild(elementos);
+}
 
 function addToCartClicked(event) {
   const button = event.target;
