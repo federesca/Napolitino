@@ -8,7 +8,7 @@ const contenedorFavoritos = document.querySelector(".listado-favoritos");
 obtenerDatosDeLocalStorage();
 
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('/mocks/ingredientes.json')
+    fetch('../mocks/ingredientes.json')
         .then((data) => data.json())
         .then((data) => {
             ingredientes = data;

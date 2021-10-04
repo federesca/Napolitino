@@ -3,32 +3,32 @@
 		"id":1,
 		"name": "Boconna Box",
 		"price": 700,
-		"img":"../Assests/Boxes/blueBoxDesafio.jpg"
+		"img":"/Assests/Boxes/blueBoxDesafio.jpg"
 	},
 	{
 		"id":2,
 		"name": "Pancetona Box",
 		"price": 700,
-		"img":"../Assests/Boxes/BocconnaBoxDesafio.jpg"
+		"img":"/Assests/Boxes/BocconnaBoxDesafio.jpg"
 	},{
 		"id":3,
 		"name": "Blue Box",
 		"price": 700,
-		"img":"../Assests/Boxes/funghiBoxDesafio.jpg"
+		"img":"/Assests/Boxes/funghiBoxDesafio.jpg"
 	},{
 		"id":4,
 		"name": "Sin Vueltas Box",
 		"price": 700,
-		"img":"../Assests/Boxes/funghiBoxDesafio.jpg"
+		"img":"/Assests/Boxes/funghiBoxDesafio.jpg"
 	},{
 		"id":5,
 		"name": "Burra Box",
 		"price": 700,
-		"img":"../Assests/Boxes/funghiBoxDesafio.jpg"
+		"img":"/Assests/Boxes/funghiBoxDesafio.jpg"
 	},{
 		"id":6,
 		"name": "Pre Pizzita Box",
 		"price": 700,
-		"img":"../Assests/Boxes/funghiBoxDesafio.jpg"
+		"img":"/Assests/Boxes/funghiBoxDesafio.jpg"
 	}
 ]

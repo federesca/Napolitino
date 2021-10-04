@@ -1,6 +1,6 @@
 let productos = [];
 
-fetch('/mocks/boxes.json').then((data) => data.json()).then((data) => {
+fetch('../mocks/boxes.json').then((data) => data.json()).then((data) => {
 	productos = data;
 	mostrarProductos();
 	const addToShoppingCartButtons = document.querySelectorAll('.addToCart');
