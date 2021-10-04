@@ -199,3 +199,42 @@ h2 {
   color: rgb(252, 252, 252);
   padding: 1rem;
 } 
+
+
+.carrito-flotante {
+  position: fixed;
+  bottom:0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #000;
+  padding: 20px 40px;
+}
+
+.carrito-flotante-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.carrito-flotante-checkout {
+  display: flex;
+  align-items: center;
+}
+
+.carrito-flotante-items {
+  flex: 1;
+}
+
+.carrito-flotante-item {
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.carrito-flotante-total {
+  font-size: 18px;
+  margin-right: 25px;
+  font-weight: bold;
+}
